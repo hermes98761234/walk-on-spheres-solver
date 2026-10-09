@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walk on Spheres Solver: mesh-free heat and electrostatics in your browser</title>
+    <meta name="description" content="Free mesh-free PDE solver. Draw conductors, insulated walls and heat sources, then solve Laplace and Poisson problems with walk on spheres and walk on stars Monte Carlo in parallel Web Workers." />
+    <meta name="keywords" content="walk on spheres, walk on stars, Monte Carlo PDE solver, mesh-free, Laplace equation, Poisson equation, heat conduction simulator, electrostatics, PCB thermal, Neumann boundary" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/walk-on-spheres-solver/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="WoS Solver" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Walk on Spheres Solver" />
+    <meta property="og:url" content="https://hermes98761234.github.io/walk-on-spheres-solver/" />
+    <meta property="og:title" content="Walk on Spheres: a mesh-free PDE solver" />
+    <meta property="og:description" content="Draw a domain, set temperatures or voltages, and watch Monte Carlo random walks solve it. No mesh, runs in your browser." />
+    <meta property="og:image" content="https://hermes98761234.github.io/walk-on-spheres-solver/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A progressive Monte Carlo heat map of a PCB with a hot regulator, with the headline: walk on spheres, a mesh-free PDE solver." />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Walk on Spheres: a mesh-free PDE solver" />
+    <meta name="twitter:description" content="Mesh-free Monte Carlo solver for heat and electrostatics. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/walk-on-spheres-solver/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Walk on Spheres Solver",
+        "url": "https://hermes98761234.github.io/walk-on-spheres-solver/",
+        "description": "Mesh-free Monte Carlo solver for Laplace and Poisson problems with Dirichlet and Neumann boundaries, probe points, isolines and flux arrows.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript and Web Workers",
+        "inLanguage": ["en"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "hermes98761234" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This solver needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
